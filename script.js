@@ -1,13 +1,21 @@
 const songs = [
+  { name: "Break My Heart", file: "songs/Soundloaders.app - Break My Heart - Dua Lipa.mp3", artist: "Dua Lipa" },
+  { name: "DARE", file: "songs/Soundloaders.app - DARE _feat. Shaun Ryder _ Roses Gabor_ - Gorillaz_ Shaun Ryder_ Roses Gabor.mp3", artist: "Gorillaz feat. Shaun Ryder & Roses Gabor" },
+  { name: "Don't Start Now", file: "songs/Soundloaders.app - Don_t Start Now - Dua Lipa.mp3", artist: "Dua Lipa" },
   { name: "Don't Stop Me Now", file: "songs/Soundloaders.app - Don_t Stop Me Now - Remastered 2011 - Queen.mp3", artist: "Queen" },
   { name: "Enter Sandman", file: "songs/Soundloaders.app - Enter Sandman _Remastered_ - Metallica.mp3", artist: "Metallica" },
+  { name: "I Love It", file: "songs/Soundloaders.app - I Love It _feat. Charli XCX_ - Icona Pop_ Charli xcx.mp3", artist: "Icona Pop feat. Charli XCX" },
   { name: "I Was Made For Lovin' You", file: "songs/Soundloaders.app - I Was Made For Lovin_ You - KISS.mp3", artist: "KISS" },
   { name: "Iron Man", file: "songs/Soundloaders.app - Iron Man - 2012 - Remaster - Black Sabbath.mp3", artist: "Black Sabbath" },
+  { name: "Levitating", file: "songs/Soundloaders.app - Levitating _feat. DaBaby_ - Dua Lipa_ DaBaby.mp3", artist: "Dua Lipa feat. DaBaby" },
+  { name: "Love Me Not", file: "songs/Soundloaders.app - Love Me Not - Ravyn Lenae.mp3", artist: "Ravyn Lenae" },
   { name: "NEW MAGIC WAND", file: "songs/Soundloaders.app - NEW MAGIC WAND - Tyler_ The Creator.mp3", artist: "Tyler, The Creator" },
   { name: "Paranoid", file: "songs/Soundloaders.app - Paranoid - Black Sabbath.mp3", artist: "Black Sabbath" },
   { name: "See You Again", file: "songs/Soundloaders.app - See You Again _feat. Kali Uchis_ - Tyler_ The Creator_ Kali Uchis.mp3", artist: "Tyler, The Creator feat. Kali Uchis" },
   { name: "Smells Like Teen Spirit", file: "songs/Soundloaders.app - Smells Like Teen Spirit - Nirvana.mp3", artist: "Nirvana" },
-  { name: "St. Chroma", file: "songs/Soundloaders.app - St. Chroma _feat. Daniel Caesar_ - Tyler_ The Creator_ Daniel Caesar.mp3", artist: "Tyler, The Creator feat. Daniel Caesar" }
+  { name: "St. Chroma", file: "songs/Soundloaders.app - St. Chroma _feat. Daniel Caesar_ - Tyler_ The Creator_ Daniel Caesar.mp3", artist: "Tyler, The Creator feat. Daniel Caesar" },
+  { name: "Two Seater", file: "songs/Soundloaders.app - Two Seater - Willow Kayne.mp3", artist: "Willow Kayne" },
+  { name: "White City", file: "songs/Soundloaders.app - White City - Willow Kayne.mp3", artist: "Willow Kayne" }
 ];
 
 let currentSong = 0;
