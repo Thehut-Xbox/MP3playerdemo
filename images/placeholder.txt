@@ -1,0 +1,3 @@
+Place your cover.jpg file here
+Recommended size: 400x400 pixels
+Supported formats: JPG, PNG, GIF

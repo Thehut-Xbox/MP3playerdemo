@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My MP3 Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <h1>My MP3 Player</h1>
+    <img id="cover" src="images/cover.jpg" alt="Album Art" onerror="this.style.display='none'">
+    
+    <div class="song-info">
+      <div class="song-title">Select a song</div>
+      <div class="song-artist">from the playlist</div>
+    </div>
+    
+    <audio id="audio"></audio>
+
+    <div class="controls">
+      <button id="prev">⏮ Prev</button>
+      <button id="play">▶️ Play</button>
+      <button id="next">⏭ Next</button>
+    </div>
+
+    <div class="progress-container">
+      <input type="range" id="progress" value="0" max="100">
+    </div>
+
+    <div class="volume-container">
+      <label>Volume</label>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+
+    <div class="playlist-container">
+      <h3>Playlist</h3>
+      <ul id="playlist"></ul>
+    </div>
+    
+    <div class="keyboard-hint">
+      <small>Keyboard shortcuts: Space (play/pause), ← → (prev/next)</small>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
